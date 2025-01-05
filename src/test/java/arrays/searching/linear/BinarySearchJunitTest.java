@@ -8,7 +8,7 @@ import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LinearSearchJunit {
+class BinarySearchJunitTest {
 
      Search search = new BinarySearch();
     @Test
