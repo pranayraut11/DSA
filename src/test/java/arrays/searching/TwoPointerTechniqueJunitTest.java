@@ -1,4 +1,4 @@
-package arrays.searching.linear;
+package arrays.searching;
 
 import org.dsa.arrays.searching.Search;
 import org.dsa.arrays.searching.twopointerstechnique.TwoPointersTechnique;

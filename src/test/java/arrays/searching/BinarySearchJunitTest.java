@@ -1,16 +1,16 @@
-package arrays.searching.linear;
+package arrays.searching;
 
 
 import org.dsa.arrays.searching.Search;
-import org.dsa.arrays.searching.linear.LinearSearch;
+import org.dsa.arrays.searching.binarysearch.BinarySearch;
 import org.junit.jupiter.api.Test;
 import java.util.stream.IntStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class LinearSearchJunitTest {
+class BinarySearchJunitTest {
 
-     Search search = new LinearSearch();
+     Search search = new BinarySearch();
     @Test
     void elementFound(){
         int[] array = IntStream.range(1,100).toArray();
